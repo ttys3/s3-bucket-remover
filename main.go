@@ -17,13 +17,13 @@ var appVer = "1.0.0"
 
 // Site is a option for backing up data to S3
 type Site struct {
-	Bucket       string `yaml:"bucket"`
-	BucketPath   string `yaml:"bucket_path"`
-	BucketRegion string `yaml:"bucket_region"`
-	Endpoint     string `yaml:"endpoint"`
-	StorageClass string `yaml:"storage_class"`
-	AccessKey    string `yaml:"access_key"`
-	Secret       string `yaml:"secret"`
+	Bucket       string
+	BucketPath   string
+	BucketRegion string
+	Endpoint     string
+	StorageClass string
+	AccessKey    string
+	Secret       string
 }
 
 func main() {
