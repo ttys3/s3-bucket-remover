@@ -1,4 +1,4 @@
 /.idea
 *.log
 /s3-bucket-remover
-/s3-bucket-remover.exe
+/s3-bucket-remover.*
