@@ -3,7 +3,7 @@ module github.com/ttys3/s3-bucket-remover
 go 1.14
 
 require (
-	github.com/aws/aws-sdk-go v1.30.28
+	github.com/aws/aws-sdk-go v1.33.0
 	github.com/kr/pretty v0.1.0 // indirect
 	github.com/schollz/progressbar/v3 v3.3.3
 	github.com/sirupsen/logrus v1.6.0
